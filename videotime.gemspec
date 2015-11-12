@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Get the video duration in rails}
   # spec.description   = %q{TODO: Write a longer description. Optional.}
   spec.homepage      = ""
-  spec.license       = "MIT"
+  spec.license       = ""
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
