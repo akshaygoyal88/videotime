@@ -1,5 +1,3 @@
-{<img src="https://badge.fury.io/rb/videotime.png" alt="Gem Version" />}[http://badge.fury.io/rb/videotime]
-
 # Videotime
 
 Get the video duration in rails
