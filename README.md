@@ -1,6 +1,7 @@
 # Videotime
+{<img src="https://badge.fury.io/rb/videotime.png" alt="Gem Version" />}[http://badge.fury.io/rb/videotime]
 
-TODO: Write a gem description
+Get the video duration in rails
 
 ## Installation
 
@@ -20,11 +21,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Get the video duration in rails
+In controller
+If you want video duration before uploading video than you can write below code in create or update method
+
+	require 'videotime'
+	videotime = Videotime.get_video_time(params[:video].path)
+
+More you can get video time by passing video path as
+	videotime = Videotime.get_video_time(your_video_path)
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/videotime/fork )
+1. Fork it ( https://github.com/akshaygoyal88/videotime/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
