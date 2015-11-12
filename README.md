@@ -3,6 +3,7 @@
 Get the video duration in rails
 
 ## Installation
+First install ffmpeg on your system http://ffmpeg.org/download.html
 
 Add this line to your application's Gemfile:
 
