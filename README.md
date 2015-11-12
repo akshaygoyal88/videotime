@@ -31,6 +31,7 @@ If you want video duration before uploading video than you can write below code 
 	videotime = Videotime.get_video_time(params[:video].path)
 
 More you can get video time by passing video path as
+
 	videotime = Videotime.get_video_time(your_video_path)
 
 ## Contributing
