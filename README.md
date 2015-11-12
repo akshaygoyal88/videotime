@@ -2,6 +2,8 @@
 
 Get the video duration in rails
 
+[![Gem Version](https://badge.fury.io/rb/videotime.png)](https://badge.fury.io/rb/videotime)
+
 ## Installation
 First install ffmpeg on your system http://ffmpeg.org/download.html
 
